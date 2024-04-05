@@ -41,20 +41,20 @@ config interface 'ipv6'
 
 config interface 'wireguard'
 	option proto 'wireguard'
-	option private_key 'sOu7yGokaHyVTtm0Rgdbzi8bOV1HOEho9uErQvVW51w='
+	option private_key 'sOu7yGokaHyVTtm0RgLdbzi8bOV1HOEho9uErQvVW51w='
 	option listen_port '51512'
 	list addresses '10.0.0.1/24'
 
 config wireguard_wireguard
 	option description 'x50'
-	option public_key 'e89uaQ+ryUHGDCVQMWiKS3z37lDE5SGxg9zQgJanbjg='
+	option public_key 'e89uaQ+ryUHGDCVQMWiKYS3z37lDE5SGxg9zQgJanbjg='
 	list allowed_ips '10.0.0.2/32'
 	option route_allowed_ips '1'
 	option persistent_keepalive '25'
 
 config wireguard_wireguard
 	option description 'x50.1'
-	option public_key 'vOUKfIjRIUErN4E66JFNdMF3S6BZvI0FqXlw230ZfXk='
+	option public_key 'vOUKfIjRIUEArN4E66JFNdMF3S6BZvI0FqXlw230ZfXk='
 	list allowed_ips '10.0.0.3/32'
 	option route_allowed_ips '1'
 	option persistent_keepalive '25'
