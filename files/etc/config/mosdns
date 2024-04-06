@@ -1,7 +1,7 @@
 
 config mosdns 'config'
 	option enabled '1'
-	option listen_port '5336'
+	option listen_port '5335'
 	option geo_auto_update '0'
 	option geo_update_week_time '*'
 	option geo_update_day_time '2'
